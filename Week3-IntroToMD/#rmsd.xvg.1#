@@ -1,0 +1,45 @@
+# This file was created Wed Sep 25 22:26:42 2024
+# Created by:
+#                       :-) GROMACS - gmx rms, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/sa8200/comp-lab-class-2024/Week3-IntroToMD
+# Command line:
+#   gmx_mpi rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
+# gmx rms is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0004279
+   0.0100000    0.0576290
+   0.0200000    0.0662444
+   0.0300000    0.0730458
+   0.0400000    0.0687055
+   0.0500000    0.0832444
+   0.0600000    0.0629309
+   0.0700000    0.0742626
+   0.0800000    0.0903449
+   0.0900000    0.0754347
+   0.1000000    0.0852234
+   0.1100000    0.0717537
+   0.1200000    0.0706284
+   0.1300000    0.0736156
+   0.1400000    0.0687222
+   0.1500000    0.0668792
+   0.1600000    0.0687831
+   0.1700000    0.0798633
+   0.1800000    0.0746957
+   0.1900000    0.0669325
+   0.2000000    0.0691985
+   0.2100000    0.0717295
+   0.2200000    0.0792733
+   0.2300000    0.0791751
+   0.2400000    0.0873897
+   0.2500000    0.0634713
+   0.2600000    0.0632065

@@ -1,0 +1,13 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gromacs/2020.4"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gromacs/2020.4"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+/opt/slurm/data/slurmd/job51333164/slurm_script: line 29: gmx_mpi: command not found

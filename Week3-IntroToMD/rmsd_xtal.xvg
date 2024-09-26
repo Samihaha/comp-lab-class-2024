@@ -1,0 +1,45 @@
+# This file was created Wed Sep 25 22:29:33 2024
+# Created by:
+#                       :-) GROMACS - gmx rms, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/sa8200/comp-lab-class-2024/Week3-IntroToMD
+# Command line:
+#   gmx_mpi rms -s Setup/em.tpr -f md_0_1_noPBC.xtc -o rmsd_xtal.xvg -tu ns
+# gmx rms is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0347246
+   0.0100000    0.0705571
+   0.0200000    0.0707629
+   0.0300000    0.0723421
+   0.0400000    0.0715148
+   0.0500000    0.0967015
+   0.0600000    0.0787958
+   0.0700000    0.0841927
+   0.0800000    0.1023787
+   0.0900000    0.0882468
+   0.1000000    0.0915101
+   0.1100000    0.0792636
+   0.1200000    0.0794249
+   0.1300000    0.0805919
+   0.1400000    0.0736673
+   0.1500000    0.0736767
+   0.1600000    0.0735860
+   0.1700000    0.0816569
+   0.1800000    0.0859232
+   0.1900000    0.0692951
+   0.2000000    0.0712399
+   0.2100000    0.0781081
+   0.2200000    0.0889193
+   0.2300000    0.0906554
+   0.2400000    0.1056050
+   0.2500000    0.0774410
+   0.2600000    0.0642674

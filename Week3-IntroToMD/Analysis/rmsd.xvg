@@ -1,0 +1,29 @@
+# This file was created Tue Sep 24 21:58:11 2024
+# Created by:
+#                       :-) GROMACS - gmx rms, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/sa8200/comp-lab-class-2024/Week3-IntroToMD
+# Command line:
+#   gmx_mpi rms -s Setup/md.tpr -f Setup/md.xtc -o Analysis/rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0000003
+  10.0000000    0.0556854
+  20.0000000    0.0667006
+  30.0000000    0.0665205
+  40.0000000    0.0848459
+  50.0000000    0.0938565
+  60.0000000    0.0628220
+  70.0000000    0.0551311
+  80.0000000    0.0739438
+  90.0000000    0.0741780
+ 100.0000000    0.0830989
