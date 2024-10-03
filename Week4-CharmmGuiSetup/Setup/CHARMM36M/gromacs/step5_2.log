@@ -41,7 +41,7 @@ GROMACS:      gmx mdrun, version 2023.3
 Executable:   /ext3/apps/gromacs/2023.3/openmpi/intel/bin/gmx_mpi
 Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
 Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/sa8200/comp-lab-class-2024/Week4-CharmmGuiSetup/Setup/CHARMM36M/gromacs
-Process ID:   2025032
+Process ID:   1623845
 Command line:
   gmx_mpi mdrun -v -deffnm step5_2
 
@@ -68,7 +68,7 @@ LAPACK library:     External - detected on the system
 
 
 Running on 1 node with total 10 cores, 10 processing units
-Hardware detected on host cm015.hpc.nyu.edu (the node of MPI rank 0):
+Hardware detected on host cm014.hpc.nyu.edu (the node of MPI rank 0):
   CPU info:
     Vendor: Intel
     Brand:  Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz
@@ -78,8 +78,8 @@ Hardware detected on host cm015.hpc.nyu.edu (the node of MPI rank 0):
   Hardware topology: Basic
     Packages, cores, and logical processors:
     [indices refer to OS logical processors]
-      Package  0: [  19]
-      Package  1: [  30] [  31] [  32] [  33] [  34] [  35] [  36] [  37] [  38]
+      Package  0: [   4] [   8] [  12] [  13] [  14]
+      Package  1: [  38] [  39] [  40] [  41] [  42]
     CPU limit set by OS: -1   Recommended max number of threads: 10
 
 Likely fastest SIMD instructions supported by all nodes: AVX_512
@@ -435,7 +435,7 @@ We have the following groups for center of mass motion removal:
   0:  SOLU
   1:  SOLV
 
-Started mdrun on rank 0 Thu Oct  3 04:01:45 2024
+Started mdrun on rank 0 Thu Oct  3 16:13:47 2024
 
            Step           Time
               0        0.00000
@@ -1087,7 +1087,7 @@ Started mdrun on rank 0 Thu Oct  3 04:01:45 2024
  Pressure (bar)   Constr. rmsd
    -1.16724e+03    2.50511e-06
 
-Writing checkpoint, step 49280 at Thu Oct  3 04:16:47 2024
+Writing checkpoint, step 49440 at Thu Oct  3 16:28:49 2024
 
 
            Step           Time
@@ -1727,7 +1727,7 @@ Writing checkpoint, step 49280 at Thu Oct  3 04:16:47 2024
  Pressure (bar)   Constr. rmsd
    -1.10150e+03    2.76192e-06
 
-Writing checkpoint, step 98320 at Thu Oct  3 04:31:46 2024
+Writing checkpoint, step 98880 at Thu Oct  3 16:43:50 2024
 
 
            Step           Time
@@ -2367,9 +2367,6 @@ Writing checkpoint, step 98320 at Thu Oct  3 04:31:46 2024
  Pressure (bar)   Constr. rmsd
    -1.14054e+03    2.90258e-06
 
-Writing checkpoint, step 147360 at Thu Oct  3 04:46:47 2024
-
-
            Step           Time
          148000      296.00000
 
@@ -2382,6 +2379,9 @@ Writing checkpoint, step 147360 at Thu Oct  3 04:46:47 2024
    -1.55771e+05    2.87180e+04   -1.27053e+05   -1.31576e+05    2.97257e+02
  Pressure (bar)   Constr. rmsd
    -1.36725e+03    2.68496e-06
+
+Writing checkpoint, step 148240 at Thu Oct  3 16:58:49 2024
+
 
            Step           Time
          149000      298.00000
@@ -2577,4 +2577,17 @@ Writing checkpoint, step 147360 at Thu Oct  3 04:46:47 2024
    -1.56534e+05    2.88226e+04   -1.27712e+05   -1.31936e+05    2.98341e+02
  Pressure (bar)   Constr. rmsd
    -1.14579e+03    2.33372e-06
+
+           Step           Time
+         164000      328.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    4.34595e+02    1.22298e+03    1.29514e+03    8.25645e+01    1.08464e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.06357e+02    3.86098e+03    1.43750e+04   -1.78332e+05    5.96288e+02
+      Potential    Kinetic En.   Total Energy  Conserved En.    Temperature
+   -1.55949e+05    2.89251e+04   -1.27024e+05   -1.31955e+05    2.99401e+02
+ Pressure (bar)   Constr. rmsd
+   -1.50317e+03    2.26977e-06
 

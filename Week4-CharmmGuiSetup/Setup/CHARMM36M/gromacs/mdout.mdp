@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (4199202)
 ;	On host: cm014.hpc.nyu.edu
-;	At date: Thu Oct  3 13:03:39 2024
+;	At date: Thu Oct  3 16:13:44 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -11,21 +11,21 @@
 ;	Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
 ;	Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/sa8200/comp-lab-class-2024/Week4-CharmmGuiSetup/Setup/CHARMM36M/gromacs
 ;	Command line:
-;	  gmx_mpi grompp -f step4.1_equilibration.mdp -o step4.1_equilibration.tpr -c step4.0_minimization.gro -r step3_input.gro -p topol.top -n index.ndx -maxwarn 2
+;	  gmx_mpi grompp -f step5_production.mdp -o step5_2.tpr -c step5_1.gro -t step5_1.cpt -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = -DPOSRES -DPOSRES_FC_BB=400.0 -DPOSRES_FC_SC=40.0
+define                   = 
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
-dt                       = 0.001
-nsteps                   = 125000
+dt                       = 0.002
+nsteps                   = 500000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -61,15 +61,15 @@ rtpi                     = 0.05
 
 ; OUTPUT CONTROL OPTIONS
 ; Output frequency for coords (x), velocities (v) and forces (f)
-nstxout                  = 0
-nstvout                  = 0
-nstfout                  = 0
+nstxout                  = 10000
+nstvout                  = 10000
+nstfout                  = 10000
 ; Output frequency for energies to log file and energy file
 nstlog                   = 1000
 nstcalcenergy            = 100
 nstenergy                = 1000
 ; Output frequency and precision for .xtc file
-nstxout-compressed       = 5000
+nstxout-compressed       = 50000
 compressed-x-precision   = 1000
 ; This selects the subset of atoms for the compressed
 ; trajectory file. You can select multiple groups. By
@@ -169,16 +169,16 @@ annealing-time           =
 annealing-temp           = 
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = yes
+gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -134218778
+gen-seed                 = -19575330
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
 ; Type of constraint algorithm
 constraint_algorithm     = LINCS
 ; Do not constrain the start configuration
-continuation             = no
+continuation             = yes
 ; Use successive overrelaxation to reduce the number of shake iterations
 Shake-SOR                = no
 ; Relative tolerance of shake

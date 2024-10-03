@@ -2049,3 +2049,160 @@ Writing checkpoint, step 99100 at Thu Oct  3 13:33:45 2024
     Temperature Pressure (bar)   Constr. rmsd
     2.93377e+02   -1.14021e+03    9.98700e-07
 
+           Step           Time
+         123000      123.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    3.87015e+02    1.24533e+03    1.35449e+03    7.52215e+01    8.87812e+01
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.39166e+02    3.90244e+03    1.46137e+04   -1.79223e+05    6.14489e+02
+ Position Rest.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.18619e+02   -1.56384e+05    2.88566e+04   -1.27527e+05   -1.51459e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    2.98692e+02   -1.59080e+03    9.84338e-07
+
+           Step           Time
+         124000      124.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    3.93805e+02    1.14186e+03    1.35030e+03    9.30194e+01    5.56863e+01
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.08864e+02    3.92143e+03    1.51343e+04   -1.79166e+05    5.78054e+02
+ Position Rest.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.31706e+02   -1.55957e+05    2.86775e+04   -1.27280e+05   -1.51484e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    2.96839e+02   -1.26958e+03    1.07636e-06
+
+           Step           Time
+         125000      125.00000
+
+Writing checkpoint, step 125000 at Thu Oct  3 13:41:34 2024
+
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    4.49472e+02    1.22852e+03    1.33251e+03    5.37567e+01    8.22024e+01
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.14247e+02    3.90131e+03    1.45816e+04   -1.79109e+05    5.74249e+02
+ Position Rest.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.18131e+02   -1.56373e+05    2.89997e+04   -1.27373e+05   -1.51500e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.00173e+02   -1.61703e+03    9.86937e-07
+
+
+Energy conservation over simulation part #1 of length 125 ps, time 0 to 125 ps
+  Conserved energy drift: -1.70e-03 kJ/mol/ps per atom
+
+
+	<======  ###############  ==>
+	<====  A V E R A G E S  ====>
+	<==  ###############  ======>
+
+	Statistics over 125001 steps using 1251 frames
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    4.36881e+02    1.23080e+03    1.32823e+03    6.83926e+01    7.06536e+01
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.18807e+02    3.85687e+03    1.51783e+04   -1.79784e+05    5.94134e+02
+ Position Rest.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.42920e+02   -1.56458e+05    2.87502e+04   -1.27708e+05   -1.50259e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    2.97590e+02   -1.33711e+03    0.00000e+00
+
+   Total Virial (kJ/mol)
+    1.45913e+04    4.37502e+01   -3.09885e+01
+    4.36868e+01    1.46178e+04    1.08740e+01
+   -3.10971e+01    1.07559e+01    1.46391e+04
+
+   Pressure (bar)
+   -1.33607e+03   -1.09928e+01    8.40523e+00
+   -1.09759e+01   -1.33355e+03   -2.62058e+00
+    8.43408e+00   -2.58919e+00   -1.34172e+03
+
+         T-SOLU         T-SOLV
+    2.97023e+02    2.97623e+02
+
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+ NB=Group-cutoff nonbonded kernels    NxN=N-by-N cluster Verlet kernels
+ RF=Reaction-Field  VdW=Van der Waals  QSTab=quadratic-spline table
+ W3=SPC/TIP3p  W4=TIP4p (single or pairs)
+ V&F=Potential and force  V=Potential only  F=Force only
+
+ Computing:                               M-Number         M-Flops  % Flops
+-----------------------------------------------------------------------------
+ Pair Search distance check            7313.025160       65817.226     0.1
+ NxN Ewald Elec. + LJ [F]           1107622.677744    86394568.864    93.5
+ NxN Ewald Elec. + LJ [V&F]           11197.086432     1444424.150     1.6
+ NxN Ewald Elec. [F]                  14253.540048      869465.943     0.9
+ NxN Ewald Elec. [V&F]                  144.092416       12103.763     0.0
+ 1,4 nonbonded interactions             164.001312       14760.118     0.0
+ Calc Weights                          4306.909455      155048.740     0.2
+ Spread Q Bspline                     91880.735040      183761.470     0.2
+ Gather F Bspline                     91880.735040      551284.410     0.6
+ 3D-FFT                              299631.897036     2397055.176     2.6
+ Solve PME                              220.501764       14112.113     0.0
+ Reset In Box                            14.367735          43.103     0.0
+ CG-CoM                                  14.379220          43.138     0.0
+ Bonds                                   33.375267        1969.141     0.0
+ Propers                                162.376299       37184.172     0.0
+ Impropers                               11.875095        2470.020     0.0
+ Pos. Restr.                             32.375259        1618.763     0.0
+ Virial                                  14.424030         259.633     0.0
+ Stop-CM                                 14.379220         143.792     0.0
+ Calc-Ekin                               28.735470         775.858     0.0
+ Lincs                                   30.250726        1815.044     0.0
+ Lincs-Mat                              151.503636         606.015     0.0
+ Constraint-V                          1431.522904       12883.706     0.0
+ Constraint-Vir                          14.023710         336.569     0.0
+ Settle                                 457.010968      169094.058     0.2
+ CMAP                                     3.625029        6162.549     0.0
+ Urey-Bradley                           114.625917       20976.543     0.0
+-----------------------------------------------------------------------------
+ Total                                                92358784.077   100.0
+-----------------------------------------------------------------------------
+
+
+    D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
+
+ av. #atoms communicated per step for force:  2 x 0.0
+
+
+      R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
+
+On 1 MPI rank
+
+ Activity:              Num   Num      Call    Wall time         Giga-Cycles
+                        Ranks Threads  Count      (s)         total sum    %
+--------------------------------------------------------------------------------
+ Domain decomp.            1    1       1251       2.914          8.432   0.1
+ Neighbor search           1    1       1251      23.000         66.542   1.0
+ Force                     1    1     125001    1997.168       5778.167  87.9
+ PME mesh                  1    1     125001     214.293        619.989   9.4
+ NB X/F buffer ops.        1    1     248751       5.859         16.951   0.3
+ Write traj.               1    1         28      10.942         31.658   0.5
+ Update                    1    1     125001       4.458         12.898   0.2
+ Constraints               1    1     125003      11.727         33.927   0.5
+ Rest                                              1.221          3.532   0.1
+--------------------------------------------------------------------------------
+ Total                                          2271.582       6572.097 100.0
+--------------------------------------------------------------------------------
+ Breakdown of PME mesh activities
+--------------------------------------------------------------------------------
+ PME spread                1    1     125001      65.356        189.088   2.9
+ PME gather                1    1     125001      39.804        115.160   1.8
+ PME 3D-FFT                1    1     250002      96.802        280.067   4.3
+ PME solve Elec            1    1     125001      12.127         35.085   0.5
+--------------------------------------------------------------------------------
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     2271.581     2271.582      100.0
+                         37:51
+                 (ns/day)    (hour/ns)
+Performance:        4.754        5.048
+Finished mdrun on rank 0 Thu Oct  3 13:41:34 2024
+
