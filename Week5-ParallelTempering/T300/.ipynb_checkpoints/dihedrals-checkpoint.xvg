@@ -1,4 +1,4 @@
-# This file was created Thu Oct 10 14:38:07 2024
+# This file was created Wed Oct  9 22:30:13 2024
 # Created by:
 #                      :-) GROMACS - gmx angle, 2018.3 (-:
 # 
@@ -9,7 +9,7 @@
 #   gmx_mpi angle -f adp_exchange3temps.trr -n index.ndx -type dihedral -all -od dihedrals.xvg
 # gmx angle is part of G R O M A C S:
 #
-# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+# Gromacs Runs On Most of All Computer Systems
 #
 @    title "Dihedral Distribution: MainChain+Cb"
 @    xaxis  label "Degrees"
