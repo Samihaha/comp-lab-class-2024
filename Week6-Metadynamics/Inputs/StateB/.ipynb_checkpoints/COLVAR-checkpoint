@@ -1,0 +1,6 @@
+#! FIELDS time phi psi metad.bias
+#! SET min_phi -pi
+#! SET max_phi pi
+#! SET min_psi -pi
+#! SET max_psi pi
+ 0.000000 1.160430 0.128043 0.000000
